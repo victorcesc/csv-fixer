@@ -120,56 +120,5 @@ First 3 lines of fixed file:
 
 Error: Input file 'arquivo-inexistente.csv' not found.
 
-### Uso Incorreto
-
 Usage: node fix_csv.js <input_file> [output_file]
 Example: node fix_csv.js target.csv target-fixed.csv
-
-## Estrutura do Projeto
-
-parse-spreadsheets/
-├── fix_csv.js # Script principal
-├── target.csv # Arquivo de exemplo (entrada)
-├── target-fixed.csv # Arquivo de exemplo (saída)
-└── README.md # Esta documentação
-
-## Solução de Problemas
-
-### Problema: "node: command not found"
-
-**Solução**: Instale o Node.js no seu sistema
-
-### Problema: "Permission denied"
-
-**Solução**: Verifique as permissões do arquivo ou execute com `sudo` (Linux/Mac)
-
-### Problema: "File not found"
-
-**Solução**: Verifique se o caminho do arquivo está correto e se o arquivo existe
-
-### Problema: "Invalid UTF-8"
-
-**Solução**: O script remove BOM automaticamente, mas se persistir, verifique a codificação do arquivo
-
-## Contribuição
-
-Para contribuir com o projeto:
-
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature
-3. Implemente suas mudanças
-4. Teste com diferentes arquivos CSV
-5. Envie um pull request
-
-## Licença
-
-Este projeto está sob licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-## Suporte
-
-Se encontrar problemas ou tiver sugestões:
-
-1. Verifique se o problema não está listado na seção "Solução de Problemas"
-2. Abra uma issue no repositório
-3. Inclua o arquivo de exemplo que está causando problemas
-4. Descreva o comportamento esperado vs. o comportamento atual
