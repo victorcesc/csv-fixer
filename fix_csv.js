@@ -119,11 +119,6 @@ function processCSVFile() {
     console.log(`Output: ${outputFile}`);
 
     // Optional: Display first few lines to verify
-    const lines = fixedContent.split("\n");
-    console.log("\nFirst 3 lines of fixed file:");
-    lines.slice(0, 3).forEach((line, index) => {
-      console.log(`${index + 1}: ${line}`);
-    });
   } catch (error) {
     console.error("Error processing file:", error.message);
     process.exit(1);
