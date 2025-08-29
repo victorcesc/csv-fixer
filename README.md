@@ -23,7 +23,7 @@ Este projeto contém um script Node.js que corrige automaticamente problemas com
 2. Navegue até a pasta do projeto:
 
 ```bash
-cd parse-spreadsheets
+cd csv-fixer
 ```
 
 ## Uso
